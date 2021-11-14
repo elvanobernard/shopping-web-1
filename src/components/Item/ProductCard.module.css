@@ -1,0 +1,21 @@
+.card {
+  height: 35wrem;
+  width: 20rem;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8x;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card p {
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+}
+
+.card span {
+  font-size: 1.4rem;
+}
