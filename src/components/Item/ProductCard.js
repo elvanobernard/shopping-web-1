@@ -1,10 +1,11 @@
 import React from "react";
 
+import Card from "../UI/Card";
 import styles from "./ProductCard.module.css";
 
 function ProductCard(props) {
   return (
-    <div className={styles.card}>
+    <Card className={styles.card}>
       <img
         src={props.object.img}
         className={styles["card-img"]}
@@ -12,7 +13,7 @@ function ProductCard(props) {
       />
       <p>{props.object.title}</p>
       <span>{props.object.price}</span>
-    </div>
+    </Card>
   );
 }
 
