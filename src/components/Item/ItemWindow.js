@@ -3,18 +3,14 @@ import React from "react";
 import ProductCard from "./ProductCard";
 import styles from "./ItemWindow.module.css";
 
-import productDummy from "../../img-resource/shirt-blue.jpeg";
+import products from "../../img-resource/products.js";
 
 function ItemWindow() {
   return (
     <div className={styles["item-container"]}>
-      <ProductCard
-        object={{
-          title: "Blue shirt",
-          price: "IDR 160,000",
-          img: productDummy,
-        }}
-      />
+      {products.map((product) => (
+        <ProductCard object={product} />
+      ))}
     </div>
   );
 }

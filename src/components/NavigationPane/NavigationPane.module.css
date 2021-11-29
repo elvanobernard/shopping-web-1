@@ -2,4 +2,7 @@
   background-color: royalblue;
   /* height: 1vh; */
   width: 20%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
 }

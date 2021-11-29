@@ -1,4 +1,7 @@
 .item-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.6rem;
   width: 100%;
   background-color: salmon;
   padding: 2rem;
