@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 1.6rem;
+  gap: 1.2rem;
+}
+
+.container h2 {
+  font-size: 3rem;
+}
+
+.container span {
+  font-size: 1.8rem;
+}
+
+.container p {
+  font-size: 1.2rem;
+}
+
+.container button {
+  margin-top: 2.4rem;
+  padding: 1rem;
+  background-color: maroon;
+  border: none;
+  color: white;
+  font-weight: 800;
+  display: inline-block;
+  width: fit-content;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-radius: 6px;
+}
+
+.container button:hover {
+  background-color: rgb(87, 0, 0);
+}

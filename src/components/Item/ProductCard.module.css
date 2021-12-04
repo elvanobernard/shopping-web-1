@@ -1,17 +1,17 @@
 .card {
-  height: 35wrem;
+  height: fit-content;
   width: 20rem;
   background-color: #fff;
   padding: 1rem;
-  border-radius: 8x;
+  border-radius: 10px;
   cursor: pointer;
   transition: all 0.3s;
 }
 
-.card:hover {
+/* .card:hover {
   transform: scale(1.025);
   box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.07);
-}
+} */
 
 .card img {
   width: 100%;

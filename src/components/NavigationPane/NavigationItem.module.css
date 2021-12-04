@@ -1,4 +1,10 @@
 .navigation {
   font-size: 1.8rem;
   font-weight: 500;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.navigation:hover {
+  text-decoration: underline;
 }

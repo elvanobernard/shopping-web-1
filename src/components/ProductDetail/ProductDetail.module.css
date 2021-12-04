@@ -1,11 +1,16 @@
 .container {
   position: fixed;
-  width: 60%;
+  width: 55%;
   height: 70%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
-  padding: 1.4rem;
+  padding: 1.6rem;
   z-index: 1;
+  display: flex;
+}
+
+.product-img {
+  height: 100%;
 }

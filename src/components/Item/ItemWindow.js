@@ -3,13 +3,15 @@ import React from "react";
 import ProductCard from "./ProductCard";
 import styles from "./ItemWindow.module.css";
 
-import products from "../../img-resource/products.js";
-
-function ItemWindow() {
+function ItemWindow(props) {
   return (
     <div className={styles["item-container"]}>
-      {products.map((product) => (
-        <ProductCard object={product} />
+      {props.products.map((product) => (
+        <ProductCard
+          object={product}
+          key={product.id}
+          onItemSelected={props.onItemSelected}
+        />
       ))}
     </div>
   );
