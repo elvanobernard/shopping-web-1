@@ -1,9 +1,18 @@
 .header {
-  text-align: right;
   background-color: blanchedalmond;
   padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  width: 100%;
+  cursor: pointer;
 }
 
-.cart {
-  font-size: 1.8rem;
+.header span {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.icon {
+  font-size: 2rem;
 }

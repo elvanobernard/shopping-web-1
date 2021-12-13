@@ -23,6 +23,13 @@ const products = [
     img: basicTeesBlack,
     price: 119000,
     category: 100,
+    availability: [
+      { size: "XS", qty: 50 },
+      { size: "S", qty: 60 },
+      { size: "M", qty: 100 },
+      { size: "L", qty: 50 },
+      { size: "XL", qty: 10 },
+    ],
   },
   {
     id: "tee-02",
@@ -30,6 +37,13 @@ const products = [
     img: basicTeesBrown,
     price: 119000,
     category: 100,
+    availability: [
+      { size: "XS", qty: 50 },
+      { size: "S", qty: 60 },
+      { size: "M", qty: 100 },
+      { size: "L", qty: 50 },
+      { size: "XL", qty: 10 },
+    ],
   },
   {
     id: "tee-03",
@@ -37,6 +51,13 @@ const products = [
     img: basicTeesNavy,
     price: 119000,
     category: 100,
+    availability: [
+      { size: "XS", qty: 50 },
+      { size: "S", qty: 60 },
+      { size: "M", qty: 100 },
+      { size: "L", qty: 50 },
+      { size: "XL", qty: 10 },
+    ],
   },
   {
     id: "bristol-01",
@@ -44,6 +65,13 @@ const products = [
     img: bristolJacketGray,
     price: 219000,
     category: 200,
+    availability: [
+      { size: "XS", qty: 50 },
+      { size: "S", qty: 60 },
+      { size: "M", qty: 100 },
+      { size: "L", qty: 50 },
+      { size: "XL", qty: 10 },
+    ],
   },
   {
     id: "bristol-02",
@@ -51,6 +79,13 @@ const products = [
     img: bristolJacketNavy,
     price: 219000,
     category: 200,
+    availability: [
+      { size: "XS", qty: 50 },
+      { size: "S", qty: 60 },
+      { size: "M", qty: 100 },
+      { size: "L", qty: 50 },
+      { size: "XL", qty: 10 },
+    ],
   },
   {
     id: "work-01",
@@ -58,6 +93,13 @@ const products = [
     img: workShirtBlue,
     price: 189000,
     category: 300,
+    availability: [
+      { size: "XS", qty: 50 },
+      { size: "S", qty: 60 },
+      { size: "M", qty: 100 },
+      { size: "L", qty: 50 },
+      { size: "XL", qty: 10 },
+    ],
   },
   {
     id: "work-02",
@@ -65,6 +107,13 @@ const products = [
     img: workShirtGray,
     price: 189000,
     category: 300,
+    availability: [
+      { size: "XS", qty: 50 },
+      { size: "S", qty: 60 },
+      { size: "M", qty: 100 },
+      { size: "L", qty: 50 },
+      { size: "XL", qty: 10 },
+    ],
   },
   {
     id: "chinos-01",
@@ -72,6 +121,13 @@ const products = [
     img: chinosBrown,
     price: 249000,
     category: 400,
+    availability: [
+      { size: "XS", qty: 50 },
+      { size: "S", qty: 60 },
+      { size: "M", qty: 100 },
+      { size: "L", qty: 50 },
+      { size: "XL", qty: 10 },
+    ],
   },
   {
     id: "chinos-02",
@@ -79,6 +135,13 @@ const products = [
     img: chinosKhaki,
     price: 249000,
     category: 400,
+    availability: [
+      { size: "XS", qty: 50 },
+      { size: "S", qty: 60 },
+      { size: "M", qty: 100 },
+      { size: "L", qty: 50 },
+      { size: "XL", qty: 10 },
+    ],
   },
   {
     id: "polo-01",
@@ -86,6 +149,13 @@ const products = [
     img: poloBlack,
     price: 199000,
     category: 500,
+    availability: [
+      { size: "XS", qty: 50 },
+      { size: "S", qty: 60 },
+      { size: "M", qty: 100 },
+      { size: "L", qty: 50 },
+      { size: "XL", qty: 10 },
+    ],
   },
   {
     id: "polo-02",
@@ -93,6 +163,13 @@ const products = [
     img: poloGray,
     price: 199000,
     category: 500,
+    availability: [
+      { size: "XS", qty: 50 },
+      { size: "S", qty: 60 },
+      { size: "M", qty: 100 },
+      { size: "L", qty: 50 },
+      { size: "XL", qty: 10 },
+    ],
   },
   {
     id: "polo-03",
@@ -100,6 +177,13 @@ const products = [
     img: poloNavy,
     price: 199000,
     category: 500,
+    availability: [
+      { size: "XS", qty: 50 },
+      { size: "S", qty: 60 },
+      { size: "M", qty: 100 },
+      { size: "L", qty: 50 },
+      { size: "XL", qty: 10 },
+    ],
   },
   {
     id: "polo-04",
@@ -107,6 +191,13 @@ const products = [
     img: poloWhite,
     price: 199000,
     category: 500,
+    availability: [
+      { size: "XS", qty: 50 },
+      { size: "S", qty: 60 },
+      { size: "M", qty: 100 },
+      { size: "L", qty: 50 },
+      { size: "XL", qty: 10 },
+    ],
   },
   {
     id: "preppy-01",
@@ -114,6 +205,13 @@ const products = [
     img: pantsBlack,
     price: 249000,
     category: 400,
+    availability: [
+      { size: "XS", qty: 50 },
+      { size: "S", qty: 60 },
+      { size: "M", qty: 100 },
+      { size: "L", qty: 50 },
+      { size: "XL", qty: 10 },
+    ],
   },
   {
     id: "preppy-02",
@@ -121,6 +219,13 @@ const products = [
     img: pantsGray,
     price: 249000,
     category: 400,
+    availability: [
+      { size: "XS", qty: 50 },
+      { size: "S", qty: 60 },
+      { size: "M", qty: 100 },
+      { size: "L", qty: 50 },
+      { size: "XL", qty: 10 },
+    ],
   },
   {
     id: "stamford-01",
@@ -128,6 +233,13 @@ const products = [
     img: stamfordBlue,
     price: 225000,
     category: 200,
+    availability: [
+      { size: "XS", qty: 50 },
+      { size: "S", qty: 60 },
+      { size: "M", qty: 100 },
+      { size: "L", qty: 50 },
+      { size: "XL", qty: 10 },
+    ],
   },
   {
     id: "stamford-02",
@@ -135,6 +247,13 @@ const products = [
     img: stamfordBrown,
     price: 225000,
     category: 200,
+    availability: [
+      { size: "XS", qty: 50 },
+      { size: "S", qty: 60 },
+      { size: "M", qty: 100 },
+      { size: "L", qty: 50 },
+      { size: "XL", qty: 10 },
+    ],
   },
 ];
 

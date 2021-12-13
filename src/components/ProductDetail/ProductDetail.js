@@ -13,7 +13,10 @@ function ProductDetail(props) {
         src={props.object.img}
         alt={props.object.title}
       />
-      <ProductDetailRight object={props.object} />
+      <ProductDetailRight
+        object={props.object}
+        onItemAdded={props.onItemAdded}
+      />
     </Card>
   );
 }
